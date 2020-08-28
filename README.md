@@ -22,6 +22,7 @@ Combination of useful one-liner commands to gather js paths then use it to creat
 Requirement tools: 
 - gau
 - getjswords.py
+- httpx
 
 ## subfinder.sh
 The script is using two different sub-domain enumeration tool, saves the output of both tool and sort as unique to give you more results about sub-domains. 
