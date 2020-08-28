@@ -32,6 +32,7 @@ Note: It has absolute path for Subilst3r.py which is /root/opt/ directory, if yo
 Requirement tools:
 - Sublist3r.py
 - Assetfinder
+- subfinder
 
 ## rapiddns.sh
 API calls to https://rapiddns.io with the given domain name such as example.com
