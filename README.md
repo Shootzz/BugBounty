@@ -35,3 +35,10 @@ Requirement tools:
 ## rapiddns.sh
 API calls to https://rapiddns.io with the given domain name such as example.com
 
+## xsstest.sh
+Another useful one-liner to find all URL from the domain and put "xss" word to potential vulnerable parameters.
+
+Usage : Give a file as an argument such as, ./xsstest.sh domain.txt
+
+Requirement tools:
+- gau
