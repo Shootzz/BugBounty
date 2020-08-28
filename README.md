@@ -19,3 +19,12 @@ Combination of useful one-liner commands to gather js paths then use it to creat
 Requirement tools: 
 - gau
 - getjswords.py
+
+## subfinder.sh
+The script is using two different sub-domain enumeration tool, saves the output of both tool and sort as unique to give you more results about sub-domains. 
+
+Note: It has absolute path for Subilst3r.py which is /root/opt/ directory, if you are using different path to store your tools then don't forget to change it.
+
+Requirement tools:
+- Sublist3r.py
+- Assetfinder
