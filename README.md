@@ -5,7 +5,7 @@ Below, you can find the short documentation and requirements of each tools.
 - Give an argument to run the scripts. Example: ./script_name.sh example.com or -h
 
 ## massub_finder.sh
-Combination of domain enumeration tools including amass with asn number enumeration.
+Combination of domain enumeration tools including amass with asn number enumeration. It requires you to configure your own amass config file with API keys. If you don't put your API keys, you will get less results.
 
 Required Tools to run the script:
 - Amass
