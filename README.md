@@ -34,7 +34,7 @@ Required Tools to run the script:
 - httpx
 
 ## subfinder.sh
-The script is using two different sub-domain enumeration tool, saves the output of both tool and sort as unique to give you more results about sub-domains. 
+The script is using three different sub-domain enumeration tool, saves the output of both tool and sort as unique to give you more results about sub-domains. 
 
 Note: It has absolute path for Subilst3r.py which is /root/opt/ directory, if you are using different path to store your tools then don't forget to change it.
 
