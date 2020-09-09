@@ -23,10 +23,10 @@ else
 
 	if [[ $asn_no != "" ]]; then
 		amass intel -asn $asn_no -whois -d $1 -o asn_domain.txt
-		sort -u amass_domain.txt asn_domain.txt -o amass_domain.txt
-		sort -u domains_finder.txt amass_domain.txt -o domains.txt
-                rm asn_domain.txt
+		sort -u amass_domain.txt asn_domain.txt domains_finder.txt -o domains.txt
+                rm asn_domain.txt amass_domain.txt domains_finder.txt
 	else
 		sort -u domains_finder.txt amass_domain.txt -o domains.txt
+		rm domains_finder.txt amass_domain.txt
 	fi
 fi
