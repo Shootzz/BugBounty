@@ -7,6 +7,8 @@ Below, you can find the short documentation and requirements of each tools.
 ## massub_finder.sh
 Combination of domain enumeration tools including amass with asn number enumeration. It requires you to configure your own amass config file with API keys. If you don't put your API keys, you will get less results.
 
+Note: Do not forget to change some of the relative paths such as amass config path to your own.
+
 Required Tools to run the script:
 - Amass
 - Sublist3r.py
