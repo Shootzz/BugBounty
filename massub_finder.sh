@@ -22,9 +22,9 @@ else
 	asn_no=$(amass intel -org $org_name | grep -w "$org_name" | cut -d "," -f1)
 
 	if [[ $asn_no != "" ]]; then
-		amass intel -asn $asn_no -whois -d $1 -o asn_domain.txt
-		sort -u amass_domain.txt asn_domain.txt domains_finder.txt -o domains.txt
-                rm asn_domain.txt amass_domain.txt domains_finder.txt
+		amass intel -asn $asn_no -whois -d $1 -o asn_domains.txt
+		sort -u amass_domain.txt domains_finder.txt -o domains.txt
+                rm amass_domain.txt domains_finder.txt
 	else
 		sort -u domains_finder.txt amass_domain.txt -o domains.txt
 		rm domains_finder.txt amass_domain.txt
