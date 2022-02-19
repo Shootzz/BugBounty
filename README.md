@@ -55,5 +55,7 @@ Usage : Give a file as an argument such as, ./xsstest.sh domain.txt
 
 Required Tools to run the script:
 - gau
+#
+If you are pleased with this work, you can buy me a coffee :)
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/burakcan)
